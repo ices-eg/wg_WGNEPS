@@ -1,5 +1,6 @@
-# wg_WGNEPS-
-The Working Group on Nephrops Surveys (WGNEPS) is the international coordination group for Nephrops UWTV and trawl surveys within ICES.
+# wg_WGNEPS
+
+The code reposotory for The Working Group on Nephrops Surveys (WGNEPS) is the international coordination group for Nephrops UWTV and trawl surveys within ICES.
 
 For underwater television surveys (UWTV) this group builds on the work of WKNEPHTV 2007, WKNEPHBID 2010, SGNEPS 2009, 2010 & 2012 and WKNEPH 2009.  The group will also review the results of and protocols in place for various Nephops trawl surveys existing within ICES.
 
