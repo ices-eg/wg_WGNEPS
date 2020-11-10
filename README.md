@@ -10,15 +10,15 @@ For underwater television surveys (UWTV), this group builds on the work of WKNEP
 
 There are three main folders in this repo (0A, 0B, 0C)
 
-Agreed common code for all the institutes:
+* Agreed common code for all the institutes:
 
-* 0A - Code for developing a reference set (WKNEPS 2018).
+  * 0A - Code for developing a reference set (WKNEPS 2018).
 
 
-All international institutes are invited to share their code under the following folders:
+* All international institutes are invited to share their code under the following folders:
 
-* 0B - Code for running Lin's CCC test: pre-survey, training of Counters vs. Reference set counts
-  * Marine Institute (Ireland)
+  * 0B - Code for running Lin's CCC test: pre-survey, training of Counters vs. Reference set counts
+    * Marine Institute (Ireland)
 
-* 0C - Code for running Lin's CCC test: during survey, to compare Counters vs. Counters
-  * Marine Institute (Ireland)
+  * 0C - Code for running Lin's CCC test: during survey, to compare Counters vs. Counters
+    * Marine Institute (Ireland)
