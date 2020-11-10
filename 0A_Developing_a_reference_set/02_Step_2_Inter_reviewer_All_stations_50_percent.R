@@ -24,7 +24,10 @@ input.dir0 <- paste0(getwd(), wdir, "/output_step0/")
 input.dir1 <- paste0(getwd(), wdir, "/output_step1/")
 output.dir <- paste0(getwd(), wdir,"/output_step2/")
 ###*************************************************************************************###
-
+# Create folders if they don't exist
+if(!dir.exists(input.dir0)) { dir.create(input.dir0) }
+if(!dir.exists(input.dir1)) { dir.create(input.dir1) }
+if(!dir.exists(output.dir)) { dir.create(output.dir) }
 
 # Libraries
 library(ggplot2)

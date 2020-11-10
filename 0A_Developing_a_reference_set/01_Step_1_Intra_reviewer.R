@@ -27,7 +27,9 @@ func.dir <- paste0(getwd(), wdir, "/functions/")
 input.dir <- paste0(getwd(), wdir, "/output_step0/")
 output.dir <- paste0(getwd(), wdir,"/output_step1/")
 ###**************************************************************************************###
-
+# Create folders if they don't exist
+if(!dir.exists(input.dir)) { dir.create(input.dir) }
+if(!dir.exists(output.dir)) { dir.create(output.dir) }
 
 # Libraries
 library(ggplot2)

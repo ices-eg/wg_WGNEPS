@@ -30,6 +30,9 @@ func.dir <- paste0(getwd(), wdir, "/functions/")
 input.dir <- paste0(getwd(), wdir, "/output_step2/")
 output.dir <- paste0(getwd(), wdir,"/output_step3/")
 ###*************************************************************************************###
+# Create folders if they don't exist
+if(!dir.exists(input.dir)) { dir.create(input.dir) }
+if(!dir.exists(output.dir)) { dir.create(output.dir) }
 
 
 # Libraries
