@@ -12,8 +12,7 @@ There are three main folders in this repo (0A, 0B, 0C)
 
 * Agreed common code for all the institutes:
 
-  * 0A - Code for developing a reference set (WKNEPS 2018).
-
+  * [0A - Code for developing a reference set (WKNEPS 2018)](https://github.com/ices-eg/wg_WGNEPS/tree/master/0A_Developing_a_reference_set)
 
 * All international institutes are invited to share their code under the following folders:
 
