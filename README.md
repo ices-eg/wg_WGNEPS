@@ -6,7 +6,7 @@ This is the code repository for [The Working Group on Nephrops Surveys (WGNEPS)]
 
 For underwater television surveys (UWTV), this group builds on the work of WKNEPHTV 2007, WKNEPHBID 2010, SGNEPS 2009, 2010 & 2012, WKNEPH 2009 and WKNEPS 2016 & 2018. The group will also review the results and protocols in place for various _Nephrops_ trawl surveys existing within ICES.
 
-This repository includes input files, R scripts and functions neended to run the code.
+This repository includes input files, R scripts and functions needed to run the code.
 This repository does not include output files, as stated in _.gitignore_. However, output files could be uploaded in the future.
 
 ## Contents of this repository
