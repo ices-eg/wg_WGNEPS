@@ -1,0 +1,7 @@
+"survey","station","counter_ID","time","still_n","feature","x","y","annotation_time","VideoOperatorID","minute"
+"REF_FOOTAGE","ref_fu22_5","MAE","02:56",2206,"BURROW",43,620.5,"31-Jul-2020 12:24:09",6,3
+"REF_FOOTAGE","ref_fu22_5","MAE","03:23",2541,"BURROW",596,571.5,"31-Jul-2020 12:25:00",6,4
+"REF_FOOTAGE","ref_fu22_5","MAE","05:06",3836,"BURROW",893,630.5,"31-Jul-2020 12:27:27",6,6
+"REF_FOOTAGE","ref_fu22_5","MAE","05:15",3946,"BURROW",864,562.5,"31-Jul-2020 12:27:44",6,6
+"REF_FOOTAGE","ref_fu22_5","MAE","07:01",5269,"BURROW",527,607.5,"31-Jul-2020 12:31:06",6,8
+"REF_FOOTAGE","ref_fu22_5","MAE","07:16",5455,"BURROW",467,556.5,"31-Jul-2020 12:31:28",6,8
