@@ -22,5 +22,8 @@ There are three main folders in this repo (0A, 0B, 0C)
 
   * [C - Code for running Lin's CCC test: during survey, to compare Counters vs. Counters](https://github.com/ices-eg/wg_WGNEPS/tree/master/C_Lins_during_survey)
     * Marine Institute (Ireland)
+    
+  * [D - Code for plotting survey data](https://github.com/ices-eg/wg_WGNEPS/tree/master/D_Survey_plots)
+    * Marine Institute (Ireland)
 
 
