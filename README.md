@@ -27,3 +27,9 @@ There are four main folders in this repo (A, B, C, D)
     * Marine Institute (Ireland)
 
 
+## Details
+
+### A - Code for developing a reference set (WKNEPS 2018)
+The code follows this flowchart decision tree created in WKNEPS 2018:
+
+<img src="A_Developing_a_reference_set/repo_images/0A_Reference_set_Flow_chart_decision_tree.png" width="500">
