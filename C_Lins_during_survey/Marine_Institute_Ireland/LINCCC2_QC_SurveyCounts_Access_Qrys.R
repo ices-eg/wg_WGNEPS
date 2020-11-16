@@ -23,7 +23,7 @@ fu.name <- "FU22"
 
 ## CHANGE THE DIRECTORIES if needed *****************************************************###
 getwd()
-wdir <- "/0C_Lins_during_survey/Marine_Institute_Ireland"
+wdir <- "/C_Lins_during_survey/Marine_Institute_Ireland"
 func.dir <- paste0(getwd(), wdir, "/functions/")
 input.dir <- paste0(getwd(), wdir, "/input/")
 output.dir <- paste0(getwd(), wdir,"/output/")
