@@ -18,7 +18,7 @@ gc()
 # Set up directories
 ## CHANGE THE DIRECTORIES if needed *****************************************************###
 getwd()
-wdir <- "/0A_Developing_a_reference_set"
+wdir <- "/A_Developing_a_reference_set"
 func.dir <- paste0(getwd(), wdir, "/functions/")
 input.dir <- paste0(getwd(), wdir, "/output_step3/")
 output.dir <- paste0(getwd(), wdir,"/output_step4/")

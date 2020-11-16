@@ -6,7 +6,7 @@ gc()
 # Set up directories
 ## CHANGE THE DIRECTORIES if needed *****************************************************###
 getwd()
-wdir <- "/0A_Developing_a_reference_set"
+wdir <- "/A_Developing_a_reference_set"
 ###*************************************************************************************###
 
 # Remove all the files in the output folders

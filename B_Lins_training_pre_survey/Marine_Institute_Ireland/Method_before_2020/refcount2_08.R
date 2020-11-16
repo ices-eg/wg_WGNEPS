@@ -20,7 +20,7 @@ threshold <- 0.5
 
 ## CHANGE THE DIRECTORIES if needed *****************************************************###
 getwd()
-wdir <- "/0B_Lins_training_pre_survey/Marine_Institute_Ireland/Method_before_2020"
+wdir <- "/B_Lins_training_pre_survey/Marine_Institute_Ireland/Method_before_2020"
 func.dir <- paste0(getwd(), wdir, "/functions/")
 input.dir <- paste0(getwd(), wdir, "/input/")
 output.dir <- paste0(getwd(), wdir,"/output/")

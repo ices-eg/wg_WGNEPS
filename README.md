@@ -13,14 +13,14 @@ There are three main folders in this repo (0A, 0B, 0C)
 
 * Agreed common code for all the institutes:
 
-  * [0A - Code for developing a reference set (WKNEPS 2018)](https://github.com/ices-eg/wg_WGNEPS/tree/master/0A_Developing_a_reference_set)
+  * [A - Code for developing a reference set (WKNEPS 2018)](https://github.com/ices-eg/wg_WGNEPS/tree/master/A_Developing_a_reference_set)
 
 * All international institutes are invited to share their code under the following folders:
 
-  * [0B - Code for running Lin's CCC test: pre-survey, training of Counters vs. Reference set counts](https://github.com/ices-eg/wg_WGNEPS/tree/master/0B_Lins_training_pre_survey)
+  * [B - Code for running Lin's CCC test: pre-survey, training of Counters vs. Reference set counts](https://github.com/ices-eg/wg_WGNEPS/tree/master/B_Lins_training_pre_survey)
     * Marine Institute (Ireland)
 
-  * [0C - Code for running Lin's CCC test: during survey, to compare Counters vs. Counters](https://github.com/ices-eg/wg_WGNEPS/tree/master/0C_Lins_during_survey)
+  * [C - Code for running Lin's CCC test: during survey, to compare Counters vs. Counters](https://github.com/ices-eg/wg_WGNEPS/tree/master/C_Lins_during_survey)
     * Marine Institute (Ireland)
 
 

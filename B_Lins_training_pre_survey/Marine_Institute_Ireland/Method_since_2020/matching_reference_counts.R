@@ -33,7 +33,7 @@ names(confirmed_minutes_list) <- stations
 
 ## CHANGE THE DIRECTORIES if needed *****************************************************###
 getwd()
-wdir <- "/0B_Lins_training_pre_survey/Marine_Institute_Ireland/Method_since_2020"
+wdir <- "/B_Lins_training_pre_survey/Marine_Institute_Ireland/Method_since_2020"
 func.dir <- paste0(getwd(), wdir, "/functions/")
 input.dir1 <- paste0(getwd(), wdir, "/input_reference_counts/")
 input.dir2 <- paste0(getwd(), wdir, "/input_reviewers_counts/")
