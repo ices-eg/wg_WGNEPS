@@ -9,7 +9,7 @@ This repository does not include output files, as stated in _.gitignore_. Howeve
 
 ## Contents of this repository
 
-There are three main folders in this repo (0A, 0B, 0C)
+There are four main folders in this repo (A, B, C, D)
 
 * Agreed common code for all the institutes:
 
