@@ -1,3 +1,5 @@
+# Authors: Carlos Mesquita, Ewen Bell, Mikel Aristegui
+
 # Input:    - clean .csv sheets with counts of national and international reviewers from Step 0
 #           - all_lins_step0.csv from Step 0
 

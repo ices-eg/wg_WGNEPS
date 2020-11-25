@@ -1,3 +1,5 @@
+# Authors: Carlos Mesquita, Ewen Bell, Mikel Aristegui
+
 # Input:    - raw .xlsx datasheets with counts of national and international reviewers
 
 # Output:   - clean .csv sheets with counts of national and international reviewers

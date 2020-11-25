@@ -1,3 +1,5 @@
+# Authors: Carlos Mesquita, Ewen Bell, Mikel Aristegui
+
 # Input:    - mean_counts_dat3_step2.csv from step2
 #           - ccc_results_after_step2.csv from step2
 #           - stacked_all_reviewers_lins.csv from step2

@@ -1,3 +1,5 @@
+# Authors: Carlos Mesquita, Ewen Bell, Mikel Aristegui
+
 # Input:    - clean csv sheets with counts of national and international reviewers from Step 1
 
 # Output:   - mean_counts_plot.png exploratory plot
