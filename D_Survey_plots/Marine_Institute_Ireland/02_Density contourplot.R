@@ -22,11 +22,13 @@ longlimits <- c(-9.495, -6.7)
 ## CHANGE THE DIRECTORIES if needed *****************************************************###
 getwd()
 wdir <- "/D_Survey_plots/Marine_Institute_Ireland"
-input.dir <- paste0(getwd(), wdir, "/input_2/")
+input.dir_1 <- paste0(getwd(), wdir, "/input_1/")
+input.dir_2 <- paste0(getwd(), wdir, "/input_2/")
 output.dir <- paste0(getwd(), wdir,"/output/")
 ###**************************************************************************************###
 # Create folders if they don't exist
-if(!dir.exists(input.dir)) { dir.create(input.dir) }
+if(!dir.exists(input.dir_1)) { dir.create(input.dir_1) }
+if(!dir.exists(input.dir_2)) { dir.create(input.dir_2) }
 if(!dir.exists(output.dir)) { dir.create(output.dir) }
 
 # Libraries
@@ -40,14 +42,22 @@ library(sp)
 
 
 # Read data ----
+
+  # Read stations data
+
+    dat_stations <- read.csv(paste0(input.dir_1, fu.name, "_tv_final_2020.csv"))
+    dat_stations <- subset(dat_stations, Year == 2020)
+
+
+
   # Read ggin historical data (krigged densities)
     
-    Files <- list.files(path=input.dir , pattern = 'ggin', full.names = T)
+    Files <- list.files(path=input.dir_2 , pattern = 'ggin', full.names = T)
     #select ggin files
     ggin=NULL                               #set up a blank object
     for(File in Files) {                        #loop through all files
       x=read.csv(File)                          #read the file
-      FileName=sub(paste0(input.dir, "ggin"),'', sub('.csv','', File))  #get the filename and remove the space and .csv
+      FileName=sub(paste0(input.dir_2, "ggin"),'', sub('.csv','', File))  #get the filename and remove the space and .csv
       x$year=FileName                       #add a column with the filename to the dataframe
       ggin=rbind(ggin,x)            #combine the dataframe with the previous ones
     }
@@ -68,8 +78,8 @@ library(sp)
     
     
   # Read shapefile as a SpatialPolygonsDataframe
-    FG <- readShapePoly(paste0(input.dir, "FU20-21_Labadie"), proj4string=CRS('+proj=longlat +datum=WGS84'))
-    IRE <- readShapePoly(paste0(input.dir, "EIRE"), proj4string=CRS('+proj=longlat +datum=WGS84'))
+    FG <- readShapePoly(paste0(input.dir_2, "FU20-21_Labadie"), proj4string=CRS('+proj=longlat +datum=WGS84'))
+    IRE <- readShapePoly(paste0(input.dir_2, "EIRE"), proj4string=CRS('+proj=longlat +datum=WGS84'))
   
   # Merge data
     # double check that they match
@@ -106,14 +116,17 @@ library(sp)
 # Plot ----
 
 p +
-  geom_tile(data=subset(dat, Polygon==T ), aes(x=round(longitude, 2), y=round(latitude, 2), fill=Density))+
-  scale_fill_gradientn(colours = brewer.pal(9,"YlOrRd"), guide = "legend") +
+  geom_tile(data=subset(dat, Polygon==T), aes(x=round(longitude, 2), y=round(latitude, 2), fill=Density)) +
+  scale_fill_gradientn(name = "Krigged density", colours = brewer.pal(9,"YlOrRd"), guide = "legend") +
+  geom_point(data=dat_stations, aes(x=MidDeglong, y=MidDegLat, size=Density_Adjusted), shape =1, colour="black") +
+  scale_size_continuous(name="Adjusted density\nin station") +
   theme_bw() +
   coord_cartesian(xlim = longlimits, ylim = latlimits) +
   labs(y="Latitude", x="Longitude") +
-  facet_wrap(~year, ncol=2)
+  facet_wrap(~year, ncol=2) +
+      theme(panel.grid = element_blank())
     
-ggsave(paste0(output.dir, "Contourplot_", fu.name, ".png"), width = 6, height = 8)
+ggsave(paste0(output.dir, "Contourplot_", fu.name, ".png"), width = 8, height = 10)
 
 
 
