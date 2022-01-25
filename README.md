@@ -9,7 +9,7 @@ This repository does not include output files, as stated in _.gitignore_. Howeve
 
 ## Contents of this repository
 
-There are four main folders in this repo (A, B, C, D)
+There are four main folders in this repo (A, B, C, D, E)
 
 * Agreed common code for all the institutes:
 
@@ -26,6 +26,8 @@ There are four main folders in this repo (A, B, C, D)
   * [D - Code for plotting survey data](https://github.com/ices-eg/wg_WGNEPS/tree/master/D_Survey_plots)
     * Marine Institute (Ireland)
 
+  * [E - UWTV Equipment List](https://github.com/ices-eg/wg_WGNEPS/tree/master/E_UWTV_Equipment_List)
+    * Updated 2021
 
 ## Details
 
